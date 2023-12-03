@@ -1,11 +1,9 @@
 <script setup lang="ts">
-  const props = defineProps<{
-    modelValue?: boolean
-  }>()
+  const {x, y} = useMouse()
 </script>
 
 <template>
   <div>
-    Hello World
+    Hello World {{ x }} {{ y }}
   </div>  
 </template>
