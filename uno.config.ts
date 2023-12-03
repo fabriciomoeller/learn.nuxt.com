@@ -2,7 +2,8 @@ import { defineConfig, presetUno, presetIcons, presetAttributify } from 'unocss'
 
 export default defineConfig({
   shortcuts: {
-    'border-base': 'border-gray:10'
+    'border-base': 'border-gray:50',
+    'bg-active': 'bg-gray:20',
   },
   presets: [
     presetUno(),
