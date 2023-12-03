@@ -4,13 +4,15 @@
   //color.value = 'dark'
 
   function toggleDarkMode() {
-    color.value = color.value === 'dark' ? 'light' : 'dark'
+    color.value = color.value === 'dark' 
+      ? 'light' 
+      : 'dark'
   } 
 </script>
 
 <template>
   <div>
-    Hello World {{ x }} {{ y }}
+    Hello World {{ x }} {{ y }} <br>
     <button  @click="toggleDarkMode">
       Toggle Color Mode {{ color.value }}
     </button>
